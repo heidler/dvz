@@ -1,0 +1,69 @@
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a.custom-card:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+  
+footer p {
+    margin-bottom: 0;
+}
+
+
+.jumbotron {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.exercise {
+  width: 56px;
+}
+
+.content-button {
+  background-color: #fff;
+}
+
+body {
+  position: relative;
+}
+
+#content-menu {
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 992px) {
+  .sidebar-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #content-menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;  
+    padding-right: 2rem;
+  }
+}
+
+.references p {
+  margin-bottom: 0.5rem;
+}
+
+/* QUIZ STYLE */
+
+.control-button {
+  width: 64px;
+}
+
+
+#quiz + .error{
+    margin-top: 10px;
+    color: #dc3545;
+}

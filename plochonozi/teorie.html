@@ -6,8 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+  <!-- Bootstrap and other libraries -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -27,6 +28,9 @@
 
         <div class="collapse navbar-collapse" id="navbarsDefault">
           <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="dvz-plochonozi_metodicky-list.pdf">Metodický list</a>
+              </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">Moduly </a>
@@ -56,18 +60,14 @@
         <div class="col-lg-3">
           <div class="sidebar-item">
             <div id="content-menu" class="list-group">
-              <a class="list-group-item list-group-item-action list-group-item-info content-button"
-                href="#item-1">Úvod</a>
-              <a class="list-group-item list-group-item-action list-group-item-info content-button"
-                href="#item-2">Charakteristika lidské nohy</a>
-              <a class="list-group-item list-group-item-action list-group-item-info content-button" href="#item-3">Vývoj
+              <a class="list-group-item list-group-item-action content-button" href="#item-1">Úvod</a>
+              <a class="list-group-item list-group-item-action content-button" href="#item-2">Charakteristika lidské
+                nohy</a>
+              <a class="list-group-item list-group-item-action content-button" href="#item-3">Vývoj
                 klenby nohy</a>
-              <a class="list-group-item list-group-item-action list-group-item-info content-button"
-                href="#item-4">Anatomie kostry nohy</a>
-              <a class="list-group-item list-group-item-action list-group-item-info content-button"
-                href="#item-5">Klenba nohy</a>
-              <a class="list-group-item list-group-item-action list-group-item-info content-button"
-                href="#item-6">Použitá literatura</a>
+              <a class="list-group-item list-group-item-action content-button" href="#item-4">Anatomie kostry nohy</a>
+              <a class="list-group-item list-group-item-action content-button" href="#item-5">Klenba nohy</a>
+              <a class="list-group-item list-group-item-action content-button" href="#item-6">Použitá literatura</a>
             </div>
           </div>
         </div>
@@ -75,7 +75,9 @@
           <h3 class="h4 pt-4" id="item-1">Úvod</h3>
           <hr class="my-4">
           <figure class="figure mx-auto d-block w-75 py-4">
-            <img src="imgs/teorie-1.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Kostra nohy">
+            <a class="lightbox-style" href="imgs/teorie-1.png" data-lightbox="image-1" data-title="Evoluce člověka">
+              <img src="imgs/teorie-1.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Evoluce člověka">
+            </a>
             <figcaption class="figure-caption text-center"><strong>Obrázek 1</strong> Evoluce člověka</figcaption>
           </figure>
           <p class="text-justify">V průběhu vývoje člověka došlo současně s technologickým pokrokem k výrazné změně v
@@ -139,7 +141,9 @@
             Kostra nohy je zpevněna, šlachami svalů, vazy a svaly v celém svém podélném průběhu od paty ke špičce.
             Všechny tyto části tvoří pružný funkční celek.</p>
           <figure class="figure mx-auto d-block w-50 py-4">
-            <img src="imgs/teorie-2.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Kostra nohy">
+            <a class="lightbox-style" href="imgs/teorie-2.png" data-lightbox="image-2" data-title="Kostra nohy">
+              <img src="imgs/teorie-2.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Kostra nohy">
+            </a>
             <figcaption class="figure-caption text-center"><strong>Obrázek 2</strong> Kostra nohy</figcaption>
           </figure>
           <h3 class="h4 pt-4" id="item-5">Klenba nohy</h3>
@@ -151,17 +155,29 @@
             Podélná nožní klenba je vyšší na straně vnitřního kotníku (od palce po patu; červená linie v obrázku č. 3) a
             nižší na vnější straně chodidla (od malíku po patu; modrá linie v obrázku č. 3)</p>
           <figure class="figure mx-auto d-block w-50 py-4">
-            <img src="imgs/teorie-3.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Podélná klenba nohy">
+            <a class="lightbox-style" href="imgs/teorie-3.png" data-lightbox="image-3" data-title="Podélná klenba nohy">
+              <img src="imgs/teorie-3.png" class="figure-img img-fluid rounded mx-auto d-block"
+                alt="Podélná klenba nohy">
+            </a>
             <figcaption class="figure-caption text-center"><strong>Obrázek 3</strong> Podélná klenba nohy</figcaption>
           </figure>
-          <p class="text-justify">Podélná klenba (obrázek 4) se rozkládá se mezi kostmi, vazy a svaly směrem od paty k předním částem nártních kostí. 
+          <p class="text-justify">Podélná klenba (obrázek 4) se rozkládá se mezi kostmi, vazy a svaly směrem od paty k
+            předním částem nártních kostí.
             Příčná klenba (obrázek 4) nohy prochází v oblasti kosti krychlové a kostí klínových.</p>
+
           <figure class="figure mx-auto d-block w-50 py-4">
-            <img src="imgs/teorie-4.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Podélná a příčná klenba nohy">
-            <figcaption class="figure-caption text-center"><strong>Obrázek 4</strong> Podélná a příčná klenba nohy</figcaption>
+            <a class="lightbox-style" href="imgs/teorie-4.png" data-lightbox="image-4"
+              data-title="Podélná a příčná klenba nohy">
+              <img src="imgs/teorie-4.png" class="figure-img img-fluid rounded mx-auto d-block"
+                alt="Podélná a příčná klenba nohy">
+            </a>
+            <figcaption class="figure-caption text-center"><strong>Obrázek 4</strong> Podélná a příčná klenba nohy
+            </figcaption>
           </figure>
-          <p class="text-justify">Klenba nohy zdvihá chodidlo nad podložku, čímž ovlivňuje pružnost nohy při chůzi nebo stabilizuje stoj, který vyžaduje stálou 
-            koordinovanou aktivitu zúčastněných svalů. Oslabením svalů a uvolněním vazů udržujících nožní klenbu klesá vnitřní strana nohy a tím se mění i tvar nášlapné plochy. 
+          <p class="text-justify">Klenba nohy zdvihá chodidlo nad podložku, čímž ovlivňuje pružnost nohy při chůzi nebo
+            stabilizuje stoj, který vyžaduje stálou
+            koordinovanou aktivitu zúčastněných svalů. Oslabením svalů a uvolněním vazů udržujících nožní klenbu klesá
+            vnitřní strana nohy a tím se mění i tvar nášlapné plochy.
             Vzniká tak plochá noha, která má různé stupně (obrázek 5).</p>
           <p class="text-justify">K oploštění klenby nohy může dojít díky:</p>
           <ul type="square">
@@ -175,23 +191,33 @@
           </ul>
           <p class="text-justify">Níže uvádíme několik možností nevhodné obuvi:</p>
           <ul type="square">
-              <li>obuv se špatně tvarovanou vložkou;</li>
-              <li>nepřiměřeně velká či malá obuv;</li>
-              <li>obuv s vysokými podpatky;</li>
-              <li>obuv s volnou patou;</li>
-              <li>těžká obuv;</li>
-              <li>obuv měkká v nártu.</li>
+            <li>obuv se špatně tvarovanou vložkou;</li>
+            <li>nepřiměřeně velká či malá obuv;</li>
+            <li>obuv s vysokými podpatky;</li>
+            <li>obuv s volnou patou;</li>
+            <li>těžká obuv;</li>
+            <li>obuv měkká v nártu.</li>
           </ul>
-          <p class="text-justify">Za prospěšné pro udržení správně klenuté nohy a prevenci plochonoží lze považovat chůzi po nerovném povrchu: písek, louka, oblázky 
-            a další cvičení, které jsou součástí interaktivní prezentace. Pohybové aktivity v tomto prostředí zajišťují dynamickou aktivitu svalů v oblasti nožní klenby.</p>
-            <p class="text-justify">Obraz nožní klenby je možné zjistit otiskem plosky nohy (plantogramem). Tvar otisku nohy s různou klenbou je možné vidět na obrázku 5.</p>
+          <p class="text-justify">Za prospěšné pro udržení správně klenuté nohy a prevenci plochonoží lze považovat
+            chůzi po nerovném povrchu: písek, louka, oblázky
+            a další cvičení, které jsou součástí interaktivní prezentace. Pohybové aktivity v tomto prostředí zajišťují
+            dynamickou aktivitu svalů v oblasti nožní klenby.</p>
+          <p class="text-justify">Obraz nožní klenby je možné zjistit otiskem plosky nohy (plantogramem). Tvar otisku
+            nohy s různou klenbou je možné vidět na obrázku 5.</p>
           <figure class="figure py-4 mx-auto d-block">
-              <img src="imgs/teorie-5.png" class="figure-img img-fluid rounded mx-auto d-block" alt="Otisky chodidla při různém stupni vytvoření nebo poškození klenby nožní">
-              <p class="text-center small"><strong>Vysvětlivky:</strong> 1 – vysoce vyklenutá noha (za hranicí normálu); 2 – zvýšené vyklenutí nohy; 3 – normální noha; 4 – plochá noha; 
-                5 – těžký stupeň ploché nohy, spojený s poklesem vnitřního kotníku a s přivrácením vnitřního okraje nohy k podložce</p>
-              <figcaption class="figure-caption text-center"><strong>Obrázek 5</strong> Otisky chodidla při různém stupni vytvoření nebo poškození klenby nožní</figcaption>
-            </figure>
-            <h3 class="h4 pt-4" id="item-6">Použitá literatura</h3>
+            <a class="lightbox-style" href="imgs/teorie-5.png" data-lightbox="image-5"
+              data-title="Otisky chodidla při různém stupni vytvoření nebo poškození klenby nožní">
+              <img src="imgs/teorie-5.png" class="figure-img img-fluid rounded mx-auto d-block"
+                alt="Otisky chodidla při různém stupni vytvoření nebo poškození klenby nožní">
+            </a>
+            <p class="text-center small"><strong>Vysvětlivky:</strong> 1 – vysoce vyklenutá noha (za hranicí normálu); 2
+              – zvýšené vyklenutí nohy; 3 – normální noha; 4 – plochá noha;
+              5 – těžký stupeň ploché nohy, spojený s poklesem vnitřního kotníku a s přivrácením vnitřního okraje nohy k
+              podložce</p>
+            <figcaption class="figure-caption text-center"><strong>Obrázek 5</strong> Otisky chodidla při různém stupni
+              vytvoření nebo poškození klenby nožní</figcaption>
+          </figure>
+          <h3 class="h4 pt-4" id="item-6">Použitá literatura</h3>
           <hr class="my-4">
           <div class="references">
             <p>Čihák, R. (2011). Anatomie I. Praha: Grada.</p>
@@ -199,7 +225,10 @@
             <p>Gaisler, J. & Zima, J. (2007). <i>Zoologie obratlovců</i>. Praha: Academia.</p>
             <p>Hansen, J. T. (2013). <i>Netterův vybarvovací anatomický atlas</i>. Brno: CPress.</p>
             <p>Machová, J. (2016). <i>Biologie člověka pro učitele</i>. Praha: Karolinum.</p>
-            <p>Matejovičová, B., Vondráková, M., Tománková, K., & Schalmannová, J. (2013). Problematika chodze jako základnej lokomócie a stavu chodidla. In. Šimonek, J. et al. (Eds.) <i>Modelové programy pohybových aktivit zacielených na prevenciu a odstraňovanie civilizačných chorob u adolescentov</i> (pp. 112-120). Nitra: PF UKF v Nitre</p>
+            <p>Matejovičová, B., Vondráková, M., Tománková, K., & Schalmannová, J. (2013). Problematika chodze jako
+              základnej lokomócie a stavu chodidla. In. Šimonek, J. et al. (Eds.) <i>Modelové programy pohybových
+                aktivit zacielených na prevenciu a odstraňovanie civilizačných chorob u adolescentov</i> (pp. 112-120).
+              Nitra: PF UKF v Nitre</p>
             <p>Véle, F. (2006). <i>Kineziologie</i>. Praha: TRITON.</p>
           </div>
         </div>
@@ -210,11 +239,11 @@
   <footer class="footer mt-auto py-3 text-muted bg-dark">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <p class="text-white-50 text-left">&copy; 2019 Podpora rozvoje digitální gramotnosti</p>
+        <div class="col-lg-6 py-1">
+          <p class="text-white-50 text-lg-left text-center">&copy; 2019 Podpora rozvoje digitální gramotnosti</p>
         </div>
-        <div class="col-lg-6">
-          <p class="text-white-50 text-right">Naposledy aktualizováno 17.02.2019</p>
+        <div class="col-lg-6 py-1">
+          <p class="text-white-50 text-lg-right text-center">Naposledy aktualizováno 02.03.2019</p>
         </div>
       </div>
     </div>
@@ -226,6 +255,15 @@
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+
+  <script>
+    lightbox.option({
+      'alwaysShowNavOnTouchDevices': true,
+      'wrapAround': true,
+    })
+  </script>
+  
 </body>
 
 </html>

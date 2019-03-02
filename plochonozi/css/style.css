@@ -5,7 +5,7 @@ a.custom-card:hover {
 }
 
 a.custom-card:hover {
-  background-color: #17a2b8;
+  background-color: #007bff;
   color: #fff;
 }
   
@@ -56,14 +56,15 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* QUIZ STYLE */
-
-.control-button {
-  width: 64px;
+.lightbox-style:hover {
+  text-decoration: none;
 }
 
-
-#quiz + .error{
-    margin-top: 10px;
-    color: #dc3545;
+#lightboxOverlay {
+  position: fixed !important; top: 0; left: 0; height: 100% !important; width: 100% !important;
 }
+
+#lightbox {
+  position: fixed !important; top: 50% !important; transform: translateY(-50%);
+}
+

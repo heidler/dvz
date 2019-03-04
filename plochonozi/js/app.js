@@ -10,7 +10,7 @@ function initComputer(){
     $button.on('click', function(){
         var val1 = parseFloat($wrapper.find('#val1').val());
         var val2= parseFloat($wrapper.find('#val2').val());
-        var result = (val1 / val2) * 100;
+        var result = ((val1 / val2) * 100).toFixed(2);
 
         var group; //default
         if(result == 0) {

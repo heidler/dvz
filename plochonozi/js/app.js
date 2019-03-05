@@ -37,7 +37,7 @@ function initComputer(){
             group = "Zadal jsi správně hodnoty a, b?"
         };
 
-        $result.text(" Výsledek indexu nohy je " + result + ". " + group);
+        $result.html("Výsledek indexu nohy je " + result + ". " + group);
         $resultBox.css("visibility","visible");
     })
 }

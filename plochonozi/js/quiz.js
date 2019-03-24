@@ -1,11 +1,7 @@
 (function() {
     var questions = [{
-        question: "Člověk moderní doby má sníženou přirozenou pohybovou aktivitu díky:",
-        choices: ["nedostatku sportovních zařízení", "technologickému pokroku", "bipedální lokomoci"],
-        correctAnswer: 1
-    }, {
-        question: "Celkový objem pohybové aktivity u dětí může ovlivnit:",
-        choices: ["čas trávený u PC, televize, mobilních telefonů", "výuka tělesné výchovy", "nevyvážená strava"],
+        question: "Celkový objem pohybové aktivity u dětí může negativně ovlivnit:",
+        choices: ["čas trávený u PC, televize a mobilních telefonů", "pravidelné cvičení a procházky v přírodě", "široká nabídka sportovních zařízení"],
         correctAnswer: 0
     }, {
         question: "Bipedální lokomoce znamená:",
@@ -59,6 +55,10 @@
         question: "Prevencí vzniku plochonoží je:",
         choices: ["nepřiměřená fyzická zátěž", "dlouhodobé stání", "chůze naboso po písku"],
         correctAnswer: 2
+    }, {
+        question: "Obraz nožní klenby je možné získat:",
+        choices: ["plantogramem", "hlavolamikonem", "kardiogramem"],
+        correctAnswer: 0
     }];
 
     var questionCounter = 0; //Tracks question number

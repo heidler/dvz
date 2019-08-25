@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="cs" class="h-100">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap and other libraries -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>DG – Zdatnost | Metody</title>
+</head>
+
+<body class="d-flex flex-column h-100" data-spy="scroll" data-target="#content-menu" data-offset="100">
+	<header>
+		<nav class="navbar navbar-expand navbar-dark bg-dark">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">DG - Zdatnost</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
+					aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsDefault">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="dvz-plochonozi_metodicky-list.pdf">Metodický list</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">Moduly </a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown1">
+								<a class="dropdown-item" href="teorie.html">Úvod do problematiky</a>
+								<a class="dropdown-item" href="test.html">Vědomostní kvíz</a>
+								<a class="dropdown-item" href="metody.html">Metody hodnocení zdatnosti</a>
+								<a class="dropdown-item" href="diagnostika.html">Testování zdatnosti</a>
+								<a class="dropdown-item" href="cviceni.html">Soubor cvičení</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="jumbotron jumbotron-fluid bg-light text-center">
+			<div class="container">
+				<h1 class="display-4">Metody hodnocení zdatnosti</h1>
+				<p class="lead text-muted">Měření tepové frekvence.</p>
+			</div>
+		</div>
+	</header>
+
+	<main role="main" class="flex-shrink-0">
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="sidebar-item">
+						<div id="content-menu" class="list-group">
+							<a class="list-group-item list-group-item-action content-button" href="#item-1">Úvod</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-2">Co se
+								naučím?</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-3">Manuální
+								měření TF</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-4">Měření TF s
+								využitím snímače či aplikace</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-5">Měření TF s
+								využitím fitness náramku</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-6">Měření TF s
+								využitím sporttesteru nebo chytrých hodinek</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-7">Zjištění
+								klidové TF</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-8">Měření a
+								záznam aktuální TF při testu zdatnosti</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-9">Zjištění
+								maximální TF a výpočet prahových hodnot</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-10">Použitá
+								literatura</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<h3 class="h4 pt-4" id="item-1">Úvod</h3>
+					<hr class="my-4">
+					<p>Součástí toho modulu jsou různé metody záznamu srdeční resp. tepové frekvence v klidu či různém
+						typu zatížení.
+						Základem pro odbornější diagnostiku a vyhodnocení záznamu srdeční frekvence je křivka průběhu
+						srdeční frekvence.
+						Tuto metodu lze využít s použitím digitálních technologií (mobil, tablet, sporttester, PC), tak
+						i bez nich.</p>
+
+
+					<h3 class="h4 pt-5" id="item-2">Co se naučím?</h3>
+					<hr class="my-4">
+					<ul>
+						<li>Stanovit klidovou srdeční frekvenci</li>
+						<li>Zjistit průběh srdeční frekvence při zatížení pomocí vybraných testů zdatnosti</li>
+						<li>Zjistit maximální hranici srdeční frekvence</li>
+						<li>Zjistit či vypočítat hladiny aerobního a anaerobního prahu pomocí záznamových zařízení nebo
+							bez nich</li>
+						<li>Využít zjištěné údaje v rámci hodin tělesné výchovy či při jiných pohybových programech.
+						</li>
+						<li>Přesouvat soubory ze záznamového zařízení do počítače (pomocí emailu, USB kabelu či online
+							uložiště). *</li>
+						<li>Vytvoření vzorce pro výpočet hodnoty anaerobního resp. aerobního prahu v tabulkovém
+							procesoru. *</li>
+					</ul>
+					<p>* Tyto kroky lze vynechat – použít online výpočet anaerobního resp. aerobního prahu níže na této
+						stránce.</p>
+					<h4 class="h5 pt-4">Postup</h4>
+					<ol>
+						<li>Zjištění tepové frekvence manuální metodou.</li>
+						<li>Zjištění tepové frekvence pomocí aplikace v mobilním telefonu resp. tabletu (např. klidová
+							TF, aktuální nebo maximální TF).</li>
+						<li>Zjištění srdeční frekvence s využitím záznamového zařízení (klidová SF, aktuální SF nebo
+							maximální SF).</li>
+						<li>Provedení testu zdatnosti se zjištěním maximální TF (mobilním nebo záznamovým zařízením).
+						</li>
+						<li>Vyhodnocení testu a výpočet prahových hodnot.</li>
+						<li>Možnosti využití zjištěných údajů v rámci další pohybové aktivity.</li>
+					</ol>
+
+
+					<h3 class="h4 pt-5" id="item-3">Manuální měření TF</h3>
+					<hr class="my-4">
+					<p>Tato metoda je naprosto známá, desetiletí užívaná metoda, ke které není potřeba žádných
+						přístrojů.
+						Nejlépe se měří na vřetenní tepně těsně nad zápěstím, v prohlubni na palcové straně levé ruky
+						(Obr. 1).
+						Na toto místo přiložíme dva prsty pravé ruky, až ucítíme srdeční tep. Tepová frekvence se měří
+						zpravidla 10 sekund a vynásobí se šesti.
+						Výsledek nám oznámí počet srdečních tepů po dobu jedné minuty. Lze měřit také 15 vteřin a poté
+						vynásobit čtyřmi.
+						Delší doba se však nedoporučuje kvůli chybě, kterou způsobuje postupné zpomalování tepu
+						(zklidnění) po zátěži.
+						Nevýhodou je možnost provádět měření pouze v klidu, resp. je potřeba přerušit pohybovou
+						aktivitu. Měření je poměrně nepřesné, a to až o 10 %.
+						Touto metodou je možné měřit jak klidovou, tak maximální srdeční frekvenci. Výhodou jsou nulové
+						finanční prostředky, avšak na úkor nepřesnosti.
+					</p>
+					<figure class="figure mx-auto d-block w-50 py-4">
+						<a class="lightbox-style" href="imgs/obrazek-1.jpg" data-lightbox="manualni-mereni"
+							data-title="Manuální měření tepové frekvence">
+							<img src="imgs/obrazek-1.jpg" class="figure-img img-fluid rounded mx-auto d-block"
+								alt="Manuální měření tepové frekvence">
+						</a>
+						<figcaption class="figure-caption text-center"><strong>Obrázek 1</strong> Manuální měření tepové
+							frekvence</figcaption>
+					</figure>
+
+					<h3 class="h4 pt-5" id="item-4">Měření TF s využitím snímače či aplikace</h3>
+					<hr class="my-4">
+					<p>V současné době existují také měřiče tepu v chytrých telefonech nebo tabletech.
+						Pomocí těchto přístrojů je oproti manuální metodě tento záznam přesnější a jednodušší –
+						především tehdy,
+						chceme-li si měřit tepovou frekvenci v kratších časových úsecích.
+						Většina těchto přístrojů také umožňuje zaznamenávat průběh činnosti a následně přehrát data do
+						počítače a sledovat tak celý záznam pohybové činnosti.
+					</p>
+					<h4 class="h5 pt-4">Pulsmetry</h4>
+					<p>Jedná se o zařízení, které bývá integrováno do mobilního telefonu.
+						K záznamu resp. měření tepové frekvence pak stačí přitisknout prst a na displeji telefonu se
+						následně objeví aktuální hodnota srdeční frekvence.
+						Pokud telefon nemá k dispozici toto monitorovací zařízení, existují v současné době aplikace,
+						které umožňují změřit hodnotu tepové frekvence i bez příslušného senzoru a to na základě
+						prosvícení prstu LED bleskem
+						a pomocí fotoaparátu pozoruje změny pohybu vlásečnic. Jedná se de facto o stejný princip, který
+						používají také speciální optické senzory v hodinkách.
+						Nicméně tyto senzory jsou poněkud přesnější a fungují tedy o něco lépe. Na druhou stranu cena
+						těchto senzorů značně převyšuje aplikace v telefonu,
+						poněvadž řada z nich je dostupná zcela zdarma. A pro orientační diagnostiku lze téměř bezplatně
+						provést měření tepové frekvence i
+						s obyčejným smartphonem nebo tabletem.
+					</p>
+					<h4 class="h5 pt-4">Mobilní aplikace</h4>
+					<p>Na trhu existuje celá řada aplikací, jak pro operační systém android tak pro iOS, které jsou
+						vhodné pro měření základní tepové frekvence pomocí
+						chytrých telefonů nebo smartphonů. Některé z nich jsou dostupné zcela zdarma, některé jsou
+						placené. Dá se ale konstatovat, že všechny níže uvedené
+						aplikace pracují na stejném principu měření a liší se pouze tím, jak lze s následnými hodnotami
+						dále pracovat či jak je možné propojovat zjištěné
+						hodnoty např. se sociálními sítěmi. Níže uvedená aplikace funguje na chytrých telefonech a
+						tabletech s operačním systémem Android, nicméně aplikace,
+						které fungují s operačním systémem iOS jsou velmi podobné a pracují na stejném principu. Ke
+						změření srdečního tepu stačí vždy přiložit špičku
+						ukazováčku k fotoaparátu nebo ke kameře zařízení. Ideální je, pokud má tablet či telefon ve
+						výbavě LED světlo, kterým se prst nasvítí a měření
+						je tak přesnější a rychlejší. U všech aplikací je měření tepu velmi totožné a intuitivní. Vždy
+						je zahájeno klepnutím na tlačítko Start a
+						přiložením prstu na čidlo fotoaparátu. Následně je možné sledovat průběh měření na displeji
+						telefonu.
+					</p>
+					<p>Pro získání aplikace k záznamu tepové frekvence doporučujeme některou z těchto aplikací, které
+						lze ve většině případů zdarma
+						stáhnout na mobilní telefony nebo tablety s operačním systémem Android (Tab. 1) nebo iOS (Tab.
+						2).
+					</p>
+					<br>
+					<p class="figure-caption"><strong>Tabulka 1</strong> Mobilní aplikace pro systém Android</p>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th scope="col">Název</th>
+									<th scope="col">Cena</th>
+									<th scope="col">Nutné přihlášení</th>
+									<th scope="col">Nastavení zákl. těl. parametrů</th>
+									<th scope="col">Historie měření</th>
+									<th scope="col">Další funkce</th>
+									<th scope="col">Export</th>
+									<th scope="col">Synchronizace</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><a
+											href="https://play.google.com/store/apps/details?id=com.repsi.heartrate&hl=cs">Accurate
+											Heart Rate Monitor</a></td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Ano</td>
+									<td>Ne</td>
+									<td>CSV</td>
+									<td>Google Fit</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://play.google.com/store/apps/details?id=com.supersimpleapps.heart_rate_monitor_newui&hl=cs">Heart
+											Rate Monitor</a></td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Ano</td>
+									<td>Ne</td>
+									<td>CSV</td>
+									<td>Google Fit</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://play.google.com/store/apps/details?id=si.modula.android.instantheartrate&hl=cs">Instant
+											Heart Rate</a></td>
+									<td>89 Kč</td>
+									<td>Ano (Facebook, Google)</td>
+									<td>Ano</td>
+									<td>Ano</td>
+									<td>Jídelníček, tréninkový plán</td>
+									<td>Ne</td>
+									<td>Google Fit</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://play.google.com/store/apps/details?id=com.dungelin.heartrate&hl=cs">Heart
+											Rate Plus</a></td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Google Fit</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://play.google.com/store/apps/details?id=com.macropinch.hydra.android&hl=cs">Kardiograf
+											– Cardiograph</a></td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Facebook, Twitter, Google</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://play.google.com/store/apps/details?id=com.luckystars.heartratemonitor&hl=en">Hearth
+											Rate Monitor</a></td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>WhatsApp</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<br>
+					<p class="figure-caption"><strong>Tabulka 2</strong> Mobilní aplikace pro systém iOS</p>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th scope="col">Název</th>
+									<th scope="col">Cena</th>
+									<th scope="col">Nutné přihlášení</th>
+									<th scope="col">Nastavení zákl. těl. parametrů</th>
+									<th scope="col">Historie měření</th>
+									<th scope="col">Další funkce</th>
+									<th scope="col">Export</th>
+									<th scope="col">Synchronizace</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><a
+											href="https://apps.apple.com/us/app/cardiio-heart-rate-monitor/id542891434">Cardiio</a>
+									</td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Ano</td>
+									<td>Možnost měření TF pomocí obličeje</td>
+									<td>WhatsApp, Messenger</td>
+									<td>Runkeeper, Apple Health</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://apps.apple.com/us/app/my-heart-rate-monitor-pulse-rate-activity-log-for-cardiograph/id1004878977">My
+											Heart Rate Monitor & Pulse Rate</a></td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>–</td>
+									<td>Ne</td>
+									<td>Google Fit</td>
+								</tr>
+								<tr>
+									<td><a href="https://apps.apple.com/us/app/id1061544495">Heart Rate Plus</a></td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Ne</td>
+									<td>CSV</td>
+									<td>Apple Health</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://apps.apple.com/us/app/cardiogram-heart-health/id1000017994">Cardiogram</a>
+									</td>
+									<td>Zadarmo</td>
+									<td>Ano</td>
+									<td>Ano</td>
+									<td>Ano</td>
+									<td>Krokoměr, stres, spánek</td>
+									<td>WhatsApp, Messenger</td>
+									<td>Apple Health</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://apps.apple.com/us/app/cardiograph-heart-rate-monitor/id1048919906">Cardiograph</a>
+									</td>
+									<td>Zadarmo</td>
+									<td>Ne</td>
+									<td>Ne</td>
+									<td>Ano</td>
+									<td>Ne</td>
+									<td>WhatsApp, Messenger</td>
+									<td>Ne</td>
+								</tr>
+								<tr>
+									<td><a
+											href="https://apps.apple.com/us/app/instant-heart-rate-hr-monitor/id409625068">Instant
+											Heart Rate: HR Monitor</a></td>
+									<td>Zadarmo</td>
+									<td>Ano (Facebook, Google)</td>
+									<td>Ano</td>
+									<td>Ano</td>
+									<td>Placené (stres, jídelníček, tréninkový plán)</td>
+									<td>Ne</td>
+									<td>Apple Health</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<br>
+					<p>Pro ukázku průběhu záznamu tepové frekvence jsme zvolili aplikaci Kardiograf – Cardiograph od
+						společnosti MacroPinch.
+						Následuje krátký fotografický návod (Obrázek 1–4). Popis jednotlivých obrázků se zobrazí po
+						rozkliknutí fotografie.</p>
+
+					<h4 class="h5 pt-4">Postup</h4>
+
+					<div class="card border-dark shadow-sm d-flex mt-4">
+						<div class="card-header">
+							<h5 class="h6 mb-0">1. krok</h5>
+						</div>
+						<div class="card-body">
+							<p>Po otevření aplikace se Vám na obrazovce zobrazí následující
+								(Obr. 1):</p>
+							<figure class="figure mx-auto d-block w-25 py-4">
+								<a class="lightbox-style" href="imgs/navod-1.jpg" data-lightbox="aplikace"
+									data-title="1. krok – Pro spuštění záznamu tepové frekvence stiskněte na obrazovce červené tlačítko a zakryjte čočku fotoaparátu. ">
+									<img src="imgs/navod-1.jpg" class="figure-img img-fluid rounded mx-auto d-block"
+										alt="1. krok – Pro spuštění záznamu tepové frekvence stiskněte na obrazovce červené tlačítko a zakryjte čočku fotoaparátu. ">
+								</a>
+								<figcaption class="figure-caption text-center"><strong>Obrázek 1</strong></figcaption>
+							</figure>
+						</div>
+					</div>
+
+					<div class="card border-dark shadow-sm d-flex mt-4">
+						<div class="card-header">
+							<h5 class="h6 mb-0">2. krok</h5>
+						</div>
+						<div class="card-body">
+							<p>Po cca 10 sec se na obrazovce zobrazí Vaše aktuální tepová frekvence, kterou následně lze
+								uložit pomocí tlačítka (Obr. 2):</p>
+							<figure class="figure mx-auto d-block w-25 py-4">
+								<a class="lightbox-style" href="imgs/navod-2.jpg" data-lightbox="aplikace"
+									data-title="2. krok">
+									<img src="imgs/navod-2.jpg" class="figure-img img-fluid rounded mx-auto d-block"
+										alt="2. krok">
+								</a>
+								<figcaption class="figure-caption text-center"><strong>Obrázek 1</strong></figcaption>
+							</figure>
+						</div>
+					</div>
+
+					<div class="card border-dark shadow-sm d-flex mt-4">
+						<div class="card-header">
+							<h5 class="h6 mb-0">3. krok</h5>
+						</div>
+						<div class="card-body">
+							<p>Pomocí tlačítka siluet vybereme záznam, který chceme znovu vyvolat, následně je pomocí
+								prostředního tlačítka možné zpětné zobrazení (Obr. 3–4):</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/navod-3.jpg" data-lightbox="aplikace"
+											data-title="3. krok – Vyvolání záznamu">
+											<img src="imgs/navod-3.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="3. krok – Vyvolání záznamu">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/navod-4.jpg" data-lightbox="aplikace"
+											data-title="3. krok – Zobrazení záznamu">
+											<img src="imgs/navod-4.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="3. krok – Zobrazení záznamu">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 3–4</strong> Vyvolání a
+								zobrazení záznamu
+							</figcaption>
+						</div>
+					</div>
+
+					<div class="card border-dark shadow-sm d-flex mt-4">
+						<div class="card-header">
+							<h5 class="h6 mb-0">4. krok</h5>
+						</div>
+						<div class="card-body">
+							<p>Pomocí tlačítka tří teček dojde k zobrazení nabídky, kde je možné sdílet uložené hodnoty
+								na sociální sítě (Obr. 5–7):</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/navod-5.jpg" data-lightbox="aplikace"
+											data-title="4. krok – Menu">
+											<img src="imgs/navod-5.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="4. krok – Menu">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/navod-6.jpg" data-lightbox="aplikace"
+											data-title="4. krok – Menu (otevřená)">
+											<img src="imgs/navod-6.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="4. krok – Menu (otevřená)">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/navod-7.jpg" data-lightbox="aplikace"
+											data-title="4. krok – sdílení">
+											<img src="imgs/navod-7.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="4. krok – Sdílení">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 5–7</strong> Menu a
+								sdílení
+							</figcaption>
+						</div>
+					</div>
+
+					<h3 class="h4 pt-5" id="item-5">Měření TF s využitím fitness náramku</h3>
+					<hr class="my-4">
+					<p>V současné době se na trhu objevuje další chytré zařízení, které je schopné velmi přesně měřit
+						tepovou frekvenci tzv. fitness náramek. Jedná se de facto o malé hodinky, které dokáží
+						monitorovat každodenní pohybovou aktivitu. Nejčastěji je to aktuální tepová frekvence, počet
+						kroků, spálených kalorií nebo dokonce zaznamenává spánkovou aktivitu či vzdálenosti na základě
+						GPS. Zařízení je vždy schopné se přes bluetooth spojit s chytrým telefonem a v příslušné
+						aplikaci zobrazuje denní statistiky. Na trhu existuje celá řada těchto produktů, které
+						komunikují jak s telefony s operačním systémem Android, tak i s iOS. Pořizovací hodnota těchto
+						přístrojů se pohybuje od řádů stokorun do několika tisíc, vždy záleží, jaké funkce resp.
+						zařízení tento náramek skrývá uvnitř. Ukázku nejlepších a nejprodávanějších modulů těchto
+						náramků (2019) uvádíme níže (Tab. 3). Všechny fitness náramky v tabulce podporují operační
+						systém
+						Android a iOS.
+					</p>
+					<br>
+					<p class="figure-caption"><strong>Tabulka 3</strong> Fitness náramky</p>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th scope="col">Název</th>
+									<th scope="col">Orientační cena</th>
+									<th scope="col">Výdrž baterie</th>
+									<th scope="col">Odolnost</th>
+									<th scope="col">Klady</th>
+									<th scope="col">Zápory</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>UMAX U-Band 107 Plus HR</td>
+									<td>700 Kč</td>
+									<td>5–10 dní</td>
+									<td>IPX5</td>
+									<td>nepřetržité měření TF, vzdálené fotografování</td>
+									<td>obyčejný pásek, slabší baterie</td>
+								</tr>
+								<tr>
+									<td>Xiaomi Mi Band 4</td>
+									<td>900 Kč</td>
+									<td>až 20 dní</td>
+									<td>5 ATM</td>
+									<td>barevný displej, skvělá čitelnost na slunci, dlouhá výdrž baterie</td>
+									<td>chybí čeština, nelze využívat NFC platby</td>
+								</tr>
+								<tr>
+									<td>Honor Band 4</td>
+									<td>600 Kč</td>
+									<td>až 10 dní</td>
+									<td>IP68</td>
+									<td>nízká cena, pěkný AMOLED displej, velmi pohodlné</td>
+									<td>prodlevy při spárování s telefonem</td>
+								</tr>
+								<tr>
+									<td>Niceboy X-fit GPS</td>
+									<td>900 Kč</td>
+									<td>až 10 dní</td>
+									<td>IP67</td>
+									<td>GPS, monitoring sportovních aktivit</td>
+									<td>krátká výdrž se zapnutou GPS</td>
+								</tr>
+								<tr>
+									<td>Garmin Vivo Sport</td>
+									<td>2 800 Kč</td>
+									<td>až 8 hodin</td>
+									<td>5 ATM</td>
+									<td>GPS, odpovídání na SMS a hovory, průměrná rychlost</td>
+									<td>nižší odolnost, vyšší cena</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<h3 class="h4 pt-5" id="item-6">Měření TF s využitím sporttesteru nebo chytrých hodinek</h3>
+					<hr class="my-4">
+					<p>Sporttestery nebo chytré sportovní hodinky jsou výborný doplněk většiny sportovců. Je možné díky
+						nim zaznamenávat poměrně značné množství dat při provozování jakékoliv pohybové aktivity s
+						možností následné podrobné analýzy v mobilním telefonu, tabletu, PC nebo jiném zařízení, do
+						kterého lze data poměrně jednoduchým způsobem přenést.
+						Na trhu jich je obrovské množství, ale obecně se dá říci, že všechny sporttestery a chytré
+						hodinky jsou schopny změřit tepovou frekvenci při celém trvání pohybové aktivity a jsou opatřeny
+						GPS funkcí. Díky rychlému vývoji a zájmu o tento sortiment se sporttestery a chytré sportovní
+						hodinky (dále jen sporttestery) ve svých funkcích velmi podobají a jednotlivé firmy své produkty
+						zaměřují na různé typy sportů např. běh, jízda na kole, lyžování, nebo třeba i golf a lyžování.
+					</p>
+					<p>Některé sporttestery zaznamenávají tepovou, resp. srdeční frekvenci pomocí hrudního pásu některé
+						to umí již s pomocí senzorů přímo ze zápěstí. Hrudní pásy na měření tepové frekvence fungují
+						tak, že naměřené hodnoty přenáší bezdrátově pomocí Bluetooth do spárovaného sporttesteru. Hrudní
+						pásy jsou kompatibilní s mnoha hodinkami a chytrými telefony. Jejich výhodou je větší přesnost
+						oproti tomu nevýhodou je nepohodlí, které vzniká upnutím pásu na hrudi sportovce. Oproti tomu
+						měření tepové frekvence přímo na zápěstí pomocí optických senzorů na hodinkách, funguje na
+						základě měření změn krevního průtoku a probíhá tak, že senzory měří odrazy světla od kapilár
+						těsně pod kůží. Pokud jedinec nepotřebuje analyzovat zcela přesné hodnoty srdeční frekvence, je
+						lepší volba tohoto zařízení. Všechny fitness náramky v tabulce podporují operační
+						systém
+						Android a iOS (mimo Sigma RC 14.11).</p>
+
+					<br>
+					<p class="figure-caption"><strong>Tabulka 4</strong> Sporttestery a chytré náramky</p>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th scope="col">Název</th>
+									<th scope="col">Orientační cena</th>
+									<th scope="col">Výdrž baterie</th>
+									<th scope="col">Odolnost</th>
+									<th scope="col">Klady</th>
+									<th scope="col">Zápory</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Garmin Forerunner</td>
+									<td>3 000 Kč</td>
+									<td>8 hod</td>
+									<td>5 ATM</td>
+									<td>GPS, propojení s telefonem (včetně odpovědi na SMS a hovory), měření rychlosti a
+										vzdálenosti, pokročilá analýza výkonnosti</td>
+									<td>výdrž baterie, nelze propojit s hrudním pásmem, chybí výškoměr</td>
+								</tr>
+								<tr>
+									<td>Polar M430</td>
+									<td>4 000 Kč</td>
+									<td>8 hod</td>
+									<td>3 ATM</td>
+									<td>GPS, propojení s telefonem (včetně odpovědi na SMS a hovory), měření rychlosti a
+										vzdálenosti, pokročilá analýza výkonnosti, výškoměr</td>
+									<td>výdrž baterie, nelze propojit s hrudním pásmem</td>
+								</tr>
+								<tr>
+									<td>Sigma RC 14.11</td>
+									<td>2 600 Kč</td>
+									<td>–</td>
+									<td>3 ATM</td>
+									<td>podpora hrudního pásu, pokročilá analýza výkonnosti</td>
+									<td>nelze propojit s chytrým telefonem, chybí GPS</td>
+								</tr>
+								<tr>
+									<td>Suunto Spartan Sport</td>
+									<td>9 500 Kč</td>
+									<td>18 hod</td>
+									<td>10 ATM</td>
+									<td>podpora hrudního pásu, GPS, měření rychlosti a vzdálenosti, propojení s
+										telefonem (včetně odpovědi na SMS a hovory), výškoměr, kompas, pokročilá analýza
+										výkonnosti</td>
+									<td>vyšší cena, chybí teploměr</td>
+								</tr>
+								<tr>
+									<td>Garmin Fenix 5S</td>
+									<td>9 500 Kč</td>
+									<td>18 hod</td>
+									<td>10 ATM</td>
+									<td>GPS,měření rychlosti a vzdálenosti, propojení s telefonem (včetně odpovědi na
+										SMS a hovory), kompas, výškoměr, teploměr, pokročilá analýza výkonnosti</td>
+									<td>vyšší cena, mikrofon</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<h3 class="h4 pt-5" id="item-7">Zjištění klidové TF</h3>
+					<hr class="my-4">
+					<p>Klidovou tepovou frekvenci je nejlepší měřit ráno, ihned po klidném a přirozeném probuzení,
+						ideálně alespoň pět dní za sebou. Následně škrtnout nejvyšší a nejnižší hodnotu a ze zbylých
+						naměřených hodnot vypočítat průměr. Pokud chceme klidovou hodnotu tepové frekvence zjistit během
+						dne, měl by jedinec alespoň 5 minut v klidu ležet s pravidelným dýcháním (tato hodnota může být
+						mírně vyšší). Opět změříme 5× a po škrtnutí nejvyšší a nejnižší hodnoty stejným způsobem
+						vypočítáme průměr. Výsledek hodnotíme dle Tab. 5.
+					</p>
+					<br>
+					<p class="figure-caption"><strong>Tabulka 5</strong> Hodnocení zdatnosti dle klidové frekvence</p>
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<th scope="col">Hodnocení zdatnosti</th>
+									<th scope="col">Muži</th>
+									<th scope="col">Ženy</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="table-primary">
+									<td>Vynikající</td>
+									<td>pod 51</td>
+									<td>pod 56</td>
+								</tr>
+								<tr class="table-info">
+									<td>Nadprůměr</td>
+									<td>51–60</td>
+									<td>57–66</td>
+								</tr>
+								<tr class="table-success">
+									<td>Průměr</td>
+									<td>61–72</td>
+									<td>67–76</td>
+								</tr>
+								<tr class="table-warning">
+									<td>Podprůměr</td>
+									<td>73–80</td>
+									<td>77–84</td>
+								</tr>
+								<tr class="table-danger">
+									<td>Slabé</td>
+									<td>nad 80</td>
+									<td>nad 84</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<p>Hlídání klidového srdečního tepu lze doporučit opravdu každému, kdo dbá o své zdraví. Sledování
+						pulsu je prevencí před mnoha nemocemi. Pomůže porozumět lidskému tělu a v případě jakýchkoliv
+						nesrovnalostí bude prvním impulsem k návštěvě lékaře.</p>
+
+					<h3 class="h4 pt-5" id="item-8">Měření a záznam aktuální TF při testu zdatnosti</h3>
+					<hr class="my-4">
+					<p>
+					</p>
+
+					<h3 class="h4 pt-5" id="item-9">Zjištění maximální TF a výpočet prahových hodnot</h3>
+					<hr class="my-4">
+					<p>
+					</p>
+
+					<h3 class="h4 pt-5" id="item-10">Použitá literatura</h3>
+					<hr class="my-4">
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer mt-auto py-3 text-muted bg-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 py-1">
+					<p class="text-white-50 text-lg-left text-center">&copy; 2019 Podpora rozvoje digitální gramotnosti
+					</p>
+				</div>
+				<div class="col-lg-6 py-1">
+					<p class="text-white-50 text-lg-right text-center">Naposledy aktualizováno 25.08.2019</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/lightbox.min.js"></script>
+
+	<script>
+		lightbox.option({
+			'alwaysShowNavOnTouchDevices': true,
+			'wrapAround': true,
+			'albumLabel': "Obrázek %1 z %2",
+		})
+	</script>
+</body>
+
+</html>

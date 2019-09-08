@@ -11,7 +11,7 @@ První DVZ, které katedra zpracovala se zabývá nožní klenbou a součástí 
 - Diagnostika (Metoda Chippaux-Šmiřák)
 - Soubor cvičení (Pro prevenci a nápravu nožní klenby).
 
-Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/plochonozi/)
+Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/plochonozi/).
 
 ## DVZ Orienteering
 
@@ -19,7 +19,7 @@ Druhé DVZ, které katedra zpracovala se zabývá orientačními běhy a součá
 
 - Postup pro aplikaci orientačního běhu ve výuce s využitím aplikace [iOrienteering](http://www.iorienteering.com).
 
-Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/orienteering/)
+Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/orienteering/).
 
 ## DVZ Zdatnost (ROZPRACOVÁNO)
 
@@ -31,7 +31,7 @@ Třetí DVZ, které katedra zpracovala se zabývá rozvojem zdatnosti, tepovou f
 - Diagnostika (Testování zdatnosti)
 - Soubor cvičení (Pro rozvoj zdatnosti).
 
-Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/zdatnost/)
+Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/zdatnost/).
 
 ## DVZ Technika běhu (ROZPRACOVÁNO)
 
@@ -42,7 +42,7 @@ Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/zdatnost/)
 - Diagnostika (Analýza techniky běhu pomocí mobilní aplikace)
 - Soubor cvičení (Pro nápravu chyb techniky běhu).
 
-Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/atletika/)
+Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/atletika/).
 
 ---
 

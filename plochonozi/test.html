@@ -16,84 +16,93 @@
 </head>
 
 <body class="d-flex flex-column h-100">
-<header>
-	<nav class="navbar navbar-expand navbar-dark bg-dark">
-		<div class="container">
-			<a href="index.html" class="navbar-brand">DG - Plochonoží</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
-			        aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+	<header>
+		<nav class="navbar navbar-expand navbar-dark bg-dark">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">DG - Plochonoží</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
+					aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-			<div class="collapse navbar-collapse" id="navbarsDefault">
-				<ul class="navbar-nav ml-auto">
+				<div class="collapse navbar-collapse" id="navbarsDefault">
+					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-								<a class="nav-link" href="dvz-plochonozi_metodicky-list.pdf">Metodický list</a>
-							</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-toggle="dropdown"
-						   aria-haspopup="true"
-						   aria-expanded="false">Moduly </a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown1">
-							<a class="dropdown-item" href="teorie.html">Úvod do problematiky</a>
-							<a class="dropdown-item" href="test.html">Vědomostní kvíz</a>
-							<a class="dropdown-item" href="diagnostika.html">Metoda Chippaux-Šmiřák</a>
-							<a class="dropdown-item" href="cviceni.html">Soubor cvičení</a>
-						</div>
-					</li>
-				</ul>
+							<a class="nav-link" href="dvz-plochonozi_metodicky-list.pdf">Metodický list</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">Moduly </a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown1">
+								<a class="dropdown-item" href="teorie.html">Úvod do problematiky</a>
+								<a class="dropdown-item" href="test.html">Vědomostní kvíz</a>
+								<a class="dropdown-item" href="diagnostika.html">Metoda Chippaux-Šmiřák</a>
+								<a class="dropdown-item" href="cviceni.html">Soubor cvičení</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="jumbotron jumbotron-fluid bg-light text-center">
+			<div class="container">
+				<h1 class="display-4">Vědomostní kvíz</h1>
+				<p class="lead text-muted">Kvíz pro základní a střední školy.</p>
 			</div>
 		</div>
-	</nav>
+	</header>
 
-	<div class="jumbotron jumbotron-fluid bg-light text-center">
-		<div class="container">
-			<h1 class="display-4">Vědomostní kvíz</h1>
-			<p class="lead text-muted">Kvíz pro základní a střední školy.</p>
-		</div>
-	</div>
-</header>
-
-<main role="main" class="flex-shrink-0">
-	<div class="container py-5">
-		<div class="row d-flex justify-content-center">
-			<div class="col-lg-8">
-				<div class="card border-dark shadow-sm" id="quiz"></div>
+	<main role="main" class="flex-shrink-0">
+		<div class="container py-5">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-8">
+					<div class="card border-dark shadow-sm" id="quiz"></div>
+				</div>
 			</div>
-		</div>
-		<div class="row d-flex justify-content-center">
-			<div class="col-lg-8">
-				<div class="text-center pt-4">
-					<button type="button" class="btn btn-outline-primary control-button" id="prev">Zpět</button>
-					<button type="button" class="btn btn-outline-primary control-button" id="next">Další</button>
-					<button type="button" class="btn btn-outline-primary" id="start" style="display: none">Opakovat kvíz</button>
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-8">
+					<div class="text-center pt-4">
+						<button type="button" class="btn btn-outline-primary control-button" id="prev">Zpět</button>
+						<button type="button" class="btn btn-outline-primary control-button" id="next">Další</button>
+						<button type="button" class="btn btn-outline-primary" id="start" style="display: none">Opakovat
+							kvíz</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	</div>
-</main>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<img src="imgs/logotyp.png" class="w-75 figure-img img-fluid rounded mx-auto d-block pt-5 pb-3"
+						alt="Loga projektu">
+				</div>
+			</div>
+		</div>
+	</main>
 
-<footer class="footer mt-auto py-3 text-muted bg-dark">
+	<footer class="footer mt-auto py-3 text-muted bg-dark">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 py-1">
-					<p class="text-white-50 text-lg-left text-center">&copy; 2019 Podpora rozvoje digitální gramotnosti</p>
+					<p class="text-white-50 text-lg-left text-center">&copy; 2019 | <a
+							href="https://pages.pedf.cuni.cz/digitalni-gramotnost/" class="text-white-50">Podpora
+							rozvoje digitální gramotnosti</a>
+					</p>
 				</div>
 				<div class="col-lg-6 py-1">
-					<p class="text-white-50 text-lg-right text-center">Naposledy aktualizováno 31.03.2019</p>
+					<p class="text-white-50 text-lg-right text-center">Naposledy aktualizováno 08.09.2019</p>
 				</div>
 			</div>
 		</div>
-		</div>
 	</footer>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src='js/quiz.js'></script>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src='js/quiz.js'></script>
 </body>
 
 </html>

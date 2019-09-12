@@ -25,7 +25,20 @@
                   "Při cvičení v aerobní zóně musím strávit nepřetržitě minimálně 20 minut a činnost opakovat minimálně jednou týdně.", 
                   "Při cvičení v aerobní zóně musím strávit nepřetržitě minimálně 20 minut a činnost opakovat minimálně třikrát týdně."],
         correctAnswer: 2
-    }];
+    }, {
+        question: "Klidová srdeční frekvence je velmi závislá na stavu trénovanosti. Netrénovaný člověk má hodnoty klidové frekvence obvykle v rozmezí?",
+        choices: ["70–80", 
+                  "50–60", 
+                  "60–70"],
+        correctAnswer: 0
+    }, {
+        question: "U výkonnostních sportovců je důležitým ukazatelem aktuálního stavu organismu klidová srdeční frekvence. Při jakém zvýšení oproti obvyklým hodnotám můžeme usuzovat, že  náš organismus je nedostatečně zregenerován po předchozím zatížení, případně jsme na počátku možného onemocnění?",
+        choices: ["Hodnota klidové srdeční frekvence se zvýší o 1 tep.", 
+                  "Hodnota klidové srdeční frekvence se zvýší o 5 tepů.", 
+                  "Hodnota klidové srdeční frekvence se zvýší o 10 tepů."],
+        correctAnswer: 2
+    }
+];
 
     var questionCounter = 0; //Tracks question number
     var selections = []; //Array containing user choices

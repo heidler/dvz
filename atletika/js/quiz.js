@@ -1,16 +1,16 @@
 (function() {
     var questions = [{
-        question: "V běhu využíváme techniky běhu",
+        question: "V běhu využíváme techniky běhu:",
         choices: ["šlapavý a švihadlový", "šlapadlový a švihový", "šlapavý a švihový"],
         correctAnswer: 2
     }, {
-        question: "Jak zjistím manuálně tepovou frekvenci?",
+        question: "Sprinter hned po startu využívá techniku běhu:",
         choices: ["šlapavého", 
                   "švihového",
                   "frekvenčního"],
         correctAnswer: 0
     }, {
-        question: "Každý běžecký krok se skládá z fází",
+        question: "Každý běžecký krok se skládá z fází:",
         choices: ["oporová, dokročná, vzletová", 
                   "doběhová, letová, došlapová",
                   "oporová a bezoporová (letová)"],

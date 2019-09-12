@@ -28,8 +28,7 @@ Třetí DVZ, které katedra zpracovala se zabývá rozvojem zdatnosti, tepovou f
 - Teorie (Úvod do problematiky)
 - Test (Vědomostní kvíz)
 - Metody (Metody hodnocení zdatnosti)
-- Diagnostika (Testování zdatnosti)
-- Soubor cvičení (Pro rozvoj zdatnosti).
+- Diagnostika (Testování zdatnosti, výuka)
 
 Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/zdatnost/).
 

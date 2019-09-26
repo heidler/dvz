@@ -8,12 +8,6 @@
         choices: ["SF<sub>max</sub> = 220 – tělesná výška", "SF<sub>max</sub> = 220 – věk", "SF<sub>max</sub> = 220 – tělesná hmotnost"],
         correctAnswer: 1
     }, {
-        question: "Jak zjistím manuálně tepovou frekvenci?",
-        choices: ["Přiložím ukazováček a prostředníček na krk nebo zápěstí a změřím srdeční tep za 10 sekund a vynásobím čtyřmi.", 
-                  "Přiložím ukazováček a prostředníček na krk nebo zápěstí a změřím srdeční tep za 10 sekund a vynásobím šesti.",
-                  "Přiložím ukazováček a prostředníček na krk nebo zápěstí a změřím srdeční tep za 15 sekund a vynásobím šesti."],
-        correctAnswer: 1
-    }, {
         question: "Co je to aerobní pásmo?",
         choices: ["Je zóna vhodná pro pohybové aktivity, které jsou hodně náročné, bez přístupu kyslíku. Srdeční frekvence se pohybuje v pásmu 85–95 % vaší SF<sub>max</sub>.", 
                   "Je zóna vhodná pro pohybové aktivity, při kterých dochází v těle k fyziologickým procesům bez přístupu kyslíku. Jedná se o pásmo přibližně 85–95 % vaší SF<sub>max</sub>.",

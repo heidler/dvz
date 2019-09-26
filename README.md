@@ -21,7 +21,7 @@ Druhé DVZ, které katedra zpracovala se zabývá orientačními běhy a součá
 
 Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/orienteering/).
 
-## DVZ Zdatnost (ROZPRACOVÁNO)
+## DVZ Zdatnost
 
 Třetí DVZ, které katedra zpracovala se zabývá rozvojem zdatnosti, tepovou frekvencí a její diagnostikou. Součástí tohoto DVZ je:
 
@@ -32,7 +32,7 @@ Třetí DVZ, které katedra zpracovala se zabývá rozvojem zdatnosti, tepovou f
 
 Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/zdatnost/).
 
-## DVZ Technika běhu (ROZPRACOVÁNO)
+## DVZ Technika běhu
 
 Čtvrté DVZ, které katedra zpracovala se zabývá způsoby, biomechanikou a správnou technikou běhu. Součástí tohoto DVZ je:
 
@@ -42,6 +42,17 @@ Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/zdatnost/).
 - Soubor cvičení (Pro nápravu chyb techniky běhu).
 
 Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/atletika/).
+
+## DVZ Gymnastika (pracovní název, rozpracováno)
+
+Páté DVZ, které katedra zpracovala se zabývá TO-DO. Součástí tohoto DVZ je:
+
+- TO-DO
+- TO-DO
+- TO-DO
+- TO-DO
+
+Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/gymnastika/).
 
 ---
 

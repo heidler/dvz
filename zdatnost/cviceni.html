@@ -141,6 +141,14 @@
 				</div>
 			</div>
 		</div>
+		<div class="container">
+				<div class="row">
+				  <div class="col-lg-12">
+					<img src="imgs/logotyp.png" class="w-75 figure-img img-fluid rounded mx-auto d-block pt-5 pb-3"
+					  alt="Loga projektu">
+				  </div>
+				</div>
+			  </div>
 	</main>
 
 	<footer class="footer mt-auto py-3 text-muted bg-dark">
@@ -173,7 +181,15 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src='js/quiz.js'></script>
+	<script src="js/lightbox.min.js"></script>
+
+	<script>
+		lightbox.option({
+			'alwaysShowNavOnTouchDevices': true,
+			'wrapAround': true,
+			'albumLabel': "Obrázek %1 z %2",
+		})
+	</script>
 </body>
 
 </html>

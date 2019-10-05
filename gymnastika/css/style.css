@@ -1,0 +1,103 @@
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a.custom-card:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.card-subtitle {
+  font-size: 0.9em;
+}
+
+.card-subtitle:hover {
+  color: #fff;
+}
+  
+footer p {
+    margin-bottom: 0;
+}
+
+
+.jumbotron {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.exercise {
+  width: 56px;
+}
+
+.content-button {
+  background-color: #fff;
+}
+
+body {
+  position: relative;
+}
+
+#content-menu {
+  padding-bottom: 4rem;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+@media (min-width: 992px) {
+  .sidebar-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #content-menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;  
+    padding-right: 2rem;
+  }
+}
+
+.references p {
+  margin-bottom: 0.5rem;
+}
+
+.lightbox-style:hover {
+  text-decoration: none;
+}
+
+#lightboxOverlay {
+  position: fixed !important; top: 0; left: 0; height: 100% !important; width: 100% !important;
+}
+
+#lightbox {
+  position: fixed !important; top: 50% !important; transform: translateY(-50%);
+}
+
+#quiz + .error{
+  margin-top: 10px;
+  color: #dc3545;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #28a745;
+  background-color: #28a745;
+}
+
+a {
+  color: #28a745;
+}
+
+a:hover {
+  color: #1e7e34;
+}
+

@@ -13,43 +13,43 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<title>DG – Gymnastika | Hodnocení</title>
+	<title>DG – Gymnastika | Hodnocení gymnastického projevu</title>
 </head>
 
-<body class="d-flex flex-column h-100">
-		<header>
-			<nav class="navbar navbar-expand navbar-dark bg-dark">
-				<div class="container">
-					<a href="index.html" class="navbar-brand">DG – Gymnastika</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
-						aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-	
-					<div class="collapse navbar-collapse" id="navbarsDefault">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="dvz-gymnastika_metodicky-list.pdf">Metodický list</a>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-toggle="dropdown"
-									aria-haspopup="true" aria-expanded="false">Moduly </a>
-								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown1">
-									<a class="dropdown-item" href="teorie.html">Úvod do problematiky</a>
-									<a class="dropdown-item" href="technika.html">Technika provedení</a>
-									<a class="dropdown-item" href="hodnoceni.html">Hodnocení</a>
-									<a class="dropdown-item" href="cviceni.html">Průpravná cvičení</a>
-								</div>
-							</li>
-						</ul>
-					</div>
+<body class="d-flex flex-column h-100" data-spy="scroll" data-target="#content-menu" data-offset="100">
+	<header>
+		<nav class="navbar navbar-expand navbar-dark bg-dark">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">DG – Gymnastika</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
+					aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsDefault">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="dvz-atletika_metodicky-list.pdf">Metodický list</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">Moduly </a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown1">
+								<a class="dropdown-item" href="teorie.html">Úvod do problematiky</a>
+								<a class="dropdown-item" href="technika.html">Technika provedení</a>
+								<a class="dropdown-item" href="hodnoceni.html">Hodnocení gymnastického projevu</a>
+								<a class="dropdown-item" href="cviceni.html">Průpravná cvičení</a>
+							</div>
+						</li>
+					</ul>
 				</div>
-			</nav>
+			</div>
+		</nav>
 
 		<div class="jumbotron jumbotron-fluid bg-light text-center">
 			<div class="container">
-				<h1 class="display-4">Analýza techniky běhu</h1>
-				<p class="lead text-muted">Postup použití aplikace Coach's Eye</p>
+				<h1 class="display-4">Hodnocení gymnastického projevu</h1>
+				<p class="lead text-muted">Tvorba online formuláře.</p>
 			</div>
 		</div>
 	</header>
@@ -57,82 +57,495 @@
 	<main role="main" class="flex-shrink-0">
 		<div class="container py-5">
 			<div class="row">
-				<div class="col-lg-12">
-					<h3 class="h4 pt-4" id="item-1">Postup</h3>
+				<div class="col-lg-3">
+					<div class="sidebar-item">
+						<div id="content-menu" class="list-group">
+							<a class="list-group-item list-group-item-action content-button" href="#item-1">Dotazníky,
+								formuláře a kvízy</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-2">Služby pro
+								tvorbu online formuláře</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-3">Tvorba
+								formuláře pomocí Google Forms</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-4">Formuláře
+								gymnastického projevu</a>
+							<a class="list-group-item list-group-item-action content-button" href="#item-5">Hodnocení
+								gymnastického projevu třídy</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<h3 class="h4 pt-4" id="item-1">Dotazníky, formuláře a kvízy</h3>
 					<hr class="my-4">
-					<p>Coach's Eye je platforma pro trenéry a sportovce, kteří potřebují přezkoumat techniku atletů. Je
-						vhodná pro analýzu videa, které se natočí na mobilní telefon nebo tablet. Je volně <a
-							href="https://play.google.com/store/apps/details?id=com.techsmith.apps.coachseye.free&hl=cs">dostupná
-							ke stažení</a> v základní verzi na Google Play.</p>
+					<h4 class="h5 pt-4">Dotazníky</h4>
+					<p>Společnost velmi často využívá různé nástroje jako jsou např. <mark>dotazníky</mark>, které
+						slouží ke
+						zjišťování informací v populaci nebo v nějaké menší skupině osob. Velmi často se používají ke
+						zkoumání veřejného mínění. Pomocí nich je možné vyhodnotit různé skutečnosti (názory, postoje,
+						…) a na základě nich konat – zakročit, změnit určité skutečnosti.</p>
+					<p>Dříve se nejvíce používali papírové dotazníky, které člověk pomocí psacích potřeb vyplnil a
+						následně docházelo k jejich hromadnému zpracování a následnému vyhodnocení. Dnes se však velmi
+						často používají elektronické (online) dotazníky, které nejen, že můžeme na mobilním zařízení
+						během několika vteřin vyplnit, ale lze je také okamžitě automaticky vyhodnotit. Není nutné je
+						zdlouhavě zpracovávat, přepisovat a počítat odpovědi – vše za nás udělá digitální technologie.
+					</p>
+					<h4 class="h5 pt-4">Formuláře</h4>
+					<p>Možná jste se i vy již potkali s <mark>formulářem</mark> a to např. ve škole, který jste museli
+						doma předat
+						rodičům, aby ho vyplnili. Formulář je předtištěný dokument, který obsahuje kolonky sloužící pro
+						vyplnění různých údajů (např. jméno, datum narození apod.). Stejně jako dotazník se dnes
+						formulář velmi často využívá v elektronické (online) podobě, která přináší mnoho výhod. Formulář
+						je defacto synonymem pro slovo dotazník. Pokud tak mluvíme o dotazníku či formuláři, můžeme si
+						představit jedno a to samé.
+					</p>
+					<h4 class="h5 pt-4">Vědomostní kvízy</h4>
+					<p><mark>Kvíz</mark> je společenská hra s otázkami a odpověďmi. Velmi často se také nazývá jako
+						hádanková soutěž.
+						Nejčastěji se dnes využívá k ověření znalostí v určitém oboru, např. vědomostní kvíz zaměřený na
+						historii gymnastiky. Také několik digitálních vzdělávacích zdrojů obsahuje vědomostní kvízy:
+					</p>
+					<ul>
+						<li><a href="../plochonozi/test.html">Plochonoží</a></li>
+						<li><a href="../zdatnost/test.html">Zdatnost</a></li>
+						<li><a href="../atletika/test.html">Technika běhu</a></li>
+					</ul>
+					<h3 class="h4 pt-4" id="item-2">Služby pro tvorbu online dotazníku/formuláře/kvízu</h3>
+					<hr class="my-4">
+					<p>Na internetu existuje mnoho služeb, které Vám pomohou jednoduše vytvořit online dotazník, který
+						můžete jedním kliknutím nasdílet svým přátelům nebo skupině osob např. na sociálních sítích.
+						Díky tomu tak můžete sbírat mnoho dat, které následně můžete vyhodnotit. Zajímá Vás, který
+						superhrdina je ve třídě nejoblíbenější? Jednoduše vytvořte online dotazník, nasdílejte ho svým
+						spolužákům a zjistěte, který superhrdina je ve třídě nejpopulárnější.</p>
+					<p>Mezi populární služby, pomocí kterých můžete tvořit dotazník, formulář nebo kvíz patří:</p>
+					<ul>
+						<li><a href="https://www.google.com/forms/about/">Google Forms</a></li>
+						<li><a href="https://forms.office.com/">Microsoft Forms</a></li>
+						<li><a href="https://www.survio.com/cs/">Survio</a></li>
+					</ul>
+					<p>Jednoduché dotazníky můžete také tvořit např. na sociálních sítí (Facebook).</p>
+
+					<h3 class="h4 pt-4" id="item-3">Tvorba formuláře pomocí Google Forms</h3>
+					<hr class="my-4">
+					<p>Jako demonstraci, jak vytvořit online formulář jsme si vybrali službu Google Forms (Formuláře
+						Google). Pro vytvoření formuláře je nutné mít Google účet, který má zpravidla každý uživatel
+						mobilního zařízení s operačním systémem Android.</p>
+					<p>Nejčastěji tvoříme Google formulář na počítači, lze však mimo použít i mobilní zařízení. Pojďme
+						si ukázat, jak takový formulář na mobilu můžeme vytvořit.</p>
+					<p>Budeme vytvářet formulář, který následně využijeme pro hodnocení gymnastického projevu podobným
+						způsobem, který byl popsán v našem <a href="teorie.html">úvodu do problematiky</a>.</p>
 
 
+					<h4 class="h5 pt-4">Postup</h4>
+					<div id="postup-1"></div>
 					<div class="card border-dark shadow-sm d-flex mt-4">
 						<div class="card-header">
 							<h5 class="h6 mb-0">1. krok</h5>
 						</div>
 						<div class="card-body">
-							<p>Stáhněte si aplikaci <a
-								href="https://play.google.com/store/apps/details?id=com.techsmith.apps.coachseye.free&hl=cs">Coach's Eye</a> do svého mobilního telefonu nebo tabletu.</p>
+							<p>Dostaneme se na <a href="https://www.google.com/forms/about/">domovskou stránku formulářů
+									Google</a> a klikneme na možnost „Přejít na Formuláře Google“ (Obr. 1). Následně se
+								nacházíme v rozhraní tvorby nového formuláře (Obr. 2).</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-01.jpg" data-lightbox="step-01"
+											data-title="Domovská stránka Google Forms">
+											<img src="imgs/guide-01.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Domovská stránka Google Forms">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-02.jpg" data-lightbox="step-01"
+											data-title="Rozhraní tvorby formuláře">
+											<img src="imgs/guide-02.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Rozhraní tvorby formuláře">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 1–2</strong> Domovská
+								stránka Google a rozhraní tvorby formuláře
+							</figcaption>
 						</div>
 					</div>
 
+					<div id="postup-2"></div>
 					<div class="card border-dark shadow-sm d-flex mt-4">
 						<div class="card-header">
 							<h5 class="h6 mb-0">2. krok</h5>
 						</div>
 						<div class="card-body">
-							<p>Po otevření aplikace můžete zmáčknutím <mark>zelené ikony fotoaparátu</mark> nahrát video
-								nebo otevřít video nahrané z paměti telefonu
-								(Obr. 1).</p>
-							<figure class="figure mx-auto d-block w-25 py-4">
-								<a class="lightbox-style" href="imgs/navod-2.jpg" data-lightbox="aplikace"
-									data-title="2. krok – Nahrát/otevřít video">
-									<img src="imgs/navod-2.jpg" class="figure-img img-fluid rounded mx-auto d-block"
-										alt="2. krok – Nahrát/otevřít video">
-								</a>
-								<figcaption class="figure-caption text-center"><strong>Obrázek 1</strong></figcaption>
-							</figure>
+							<p>Předtím než začneme tvořit samotný formulář, nastavíme určité vlastnosti formuláře –
+								klikneme na "tři tečky" vedle "šipky". Rozbalíme se nabídka ve které zvolíme položku
+								"Nastavení" (Obr. 3)</p>
+							<p>
+								V nastavení – karta „Kvízy“, kde aktivujeme možnosti „Změnit na kvíz“ a deaktivujeme
+								údaje, které respondent uvidí (Nesprávně zodpovězené otázky; Správné odpovědi). Tento
+								krok děláme, neboť náš formulář využijeme pro hodnocení gymnastického projevu, a proto u
+								nás neexistují správné nebo špatné odpovědi. Z nastavení odejdeme tak, že klikneme na
+								tlačítko „Uložit“.</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-03.jpg" data-lightbox="step-02"
+											data-title="Nabídka – Nastavení">
+											<img src="imgs/guide-03.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Nabídka – Nastavení">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-04.jpg" data-lightbox="step-02"
+											data-title="Karta kvízy">
+											<img src="imgs/guide-04.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block" alt="Karta kvízy">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 3–4</strong> Nabídka
+								nastavení a karta kvízy
+							</figcaption>
 						</div>
 					</div>
 
+					<div id="postup-3"></div>
 					<div class="card border-dark shadow-sm d-flex mt-4">
 						<div class="card-header">
 							<h5 class="h6 mb-0">3. krok</h5>
 						</div>
 						<div class="card-body">
-							<p>Pro nahrávání videa zmáčkněte ikonu <mark>Camera</mark>, pro import již nahraného videa z
-								paměti telefonu zmáčkněte ikonu <mark>Import</mark> (Obr. 2).</p>
-							<figure class="figure mx-auto d-block w-25 py-4">
-								<a class="lightbox-style" href="imgs/navod-5.jpg" data-lightbox="aplikace"
-									data-title="3. krok – Camera/import tlačítka">
-									<img src="imgs/navod-5.jpg" class="figure-img img-fluid rounded mx-auto d-block"
-										alt="3. krok – Camera/import tlačítka">
-								</a>
-								<figcaption class="figure-caption text-center"><strong>Obrázek 2</strong></figcaption>
-							</figure>
+							<p>Vyplníme název formuláře, v našem případě „Kotoul vpřed“ a jako popis napíšeme „Hodnocení
+								gymnastického projevu“ (Obr. 5).</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-05.jpg" data-lightbox="step-03"
+											data-title="Název formuláře">
+											<img src="imgs/guide-05.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Název formuláře">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 5</strong> Název
+								formuláře
+							</figcaption>
 						</div>
 					</div>
 
+					<div id="postup-4"></div>
 					<div class="card border-dark shadow-sm d-flex mt-4">
 						<div class="card-header">
 							<h5 class="h6 mb-0">4. krok</h5>
 						</div>
 						<div class="card-body">
-							<p>Nahrajte spolužáka při běhu pomocí červeného tlačítka (Obr. 3).</p>
-							<figure class="figure mx-auto d-block w-50 py-4">
-								<a class="lightbox-style" href="imgs/navod-6.jpg" data-lightbox="aplikace"
-									data-title="4. krok – Nahrajte spolužáka při běhu pomocí červeného tlačítka">
-									<img src="imgs/navod-6.jpg" class="figure-img img-fluid rounded mx-auto d-block"
-										alt="4. krok – Nahrajte spolužáka při běhu pomocí červeného tlačítka">
+							<p>Přecházíme na tvorbu první položky (klikneme do otázky), kterou budeme v provedení
+								hodnotit. Otázku nazveme jako „Neplynulost pohybu“ (Obr. 6). Pokud chceme, aby naše
+								otázky
+								obsahovali i vysvětlující popisek, musíme ho nejdříve zaktivovat (klikneme na tři tečky
+								u otázky a po rozbalení menu zaklikneme možnost zobrazit popis), viz Obr. 7. Jako
+								popisek vyplníme
+								„Nedostatečné sbalení, stavění se na hlavu, šikmé provedení přes rameno.“), viz Obr. 8.
+							</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-06.jpg" data-lightbox="step-04"
+											data-title="Nabídka – Nastavení">
+											<img src="imgs/guide-06.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Nabídka – Nastavení">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-07.jpg" data-lightbox="step-04"
+											data-title="Karta kvízy">
+											<img src="imgs/guide-07.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block" alt="Karta kvízy">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-08.jpg" data-lightbox="step-04"
+											data-title="Karta kvízy">
+											<img src="imgs/guide-08.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block" alt="Karta kvízy">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 6–8</strong> Pojmenování
+								otázky a přidání jejího popisu
+							</figcaption>
+						</div>
+					</div>
+
+					<div id="postup-5"></div>
+					<div class="card border-dark shadow-sm d-flex mt-4">
+						<div class="card-header">
+							<h5 class="h6 mb-0">5. krok</h5>
+						</div>
+						<div class="card-body">
+							<p>Klikneme na Možnost 1 a přejmenujeme ji na „Vyskytuje se“ (Obr. 9), následně přidáme
+								další možnost nesoucí název „Nevyskytuje se“ (Obr. 10).</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-09.jpg" data-lightbox="step-05"
+											data-title="Možnost „Vyskytuje se“">
+											<img src="imgs/guide-09.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Možnost „Vyskytuje se“">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-10.jpg" data-lightbox="step-05"
+											data-title="Možnost „Nevyskytuje se“">
+											<img src="imgs/guide-10.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Možnost „Nevyskytuje se“">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 9–10</strong> Vyplnění
+								možností „Vyskytuje se“ a „Nevyskytuje se“
+							</figcaption>
+						</div>
+					</div>
+
+					<div id="postup-6"></div>
+					<div class="card border-dark shadow-sm d-flex mt-4">
+						<div class="card-header">
+							<h5 class="h6 mb-0">6. krok</h5>
+						</div>
+						<div class="card-body">
+							<p>Dále je nutné určit v kterém případě dojde k získání bodů (popřípadě k neprovedení
+								srážky bodů). Klikneme na vybrání správné odpovědi (ikonka s „fajfkou“) viz Obr. 11.
+								Zadáme kolik
+								bodů osoba dostane, pokud nedojde k chybě (v tomto případě 3 body). Následně v našem
+								provedení (logice) označíme (kliknutím) možnost „Nevyskytuje se“ za správnou odpověď,
+								tzn. pokud se nevyskytla chyba, osoba získává body (Obr. 12). Pokud potřebujeme upravit
+								otázku,
+								vrátíme se zpět kliknutím na „Upravit otázku“.</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-11.jpg" data-lightbox="step-06"
+											data-title="Nabídka správné odpovědi">
+											<img src="imgs/guide-11.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Nabídka správné odpovědi">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-12.jpg" data-lightbox="step-06"
+											data-title="Počet bodů a vybrání správné odpovědi">
+											<img src="imgs/guide-12.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Počet bodů a vybrání správné odpovědi">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 11–12</strong> Bodování
+								a správná odpověď
+							</figcaption>
+						</div>
+					</div>
+
+					<div id="postup-7"></div>
+					<div class="card border-dark shadow-sm d-flex mt-4">
+						<div class="card-header">
+							<h5 class="h6 mb-0">7. krok</h5>
+						</div>
+						<div class="card-body">
+							<p>Čeká nás přidání další otázky (položky). Je nutné zmínit, že do formuláře lze přidávat
+								mnoho typů různých otázek: uzavřené otázky (jedna odpověď, více odpovědí), otevřené
+								otázky (stručná odpověď, odstavec) a mnoho dalších. V našem případě využíváme typ „Jedna
+								odpověď“.</p>
+							<p>Další otázku přidáme kliknutím na „+“. Popřípadě u první (předešlé) otázky klikneme na
+								menu (tři tečky) a duplikujeme ji. Tím celý proces tvorby otázky mnohonásobně zrychlíme.
+								Nezapomeňte však přejmenovat název otázky, její popis a počet bodů, který za ni můžete
+								dostat. Veškeré informace o otázkách jsou níže <a href="#form-1">Formuláře gymnastického
+									projevu: Kotoul vpřed</a>.</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-13.jpg" data-lightbox="step-07"
+											data-title="Přidání nové otázky / duplikování původní otázky">
+											<img src="imgs/guide-13.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Přidání nové otázky / duplikování původní otázky">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 13</strong> Přidání nové
+								otázky / duplikování původní otázky
+							</figcaption>
+						</div>
+					</div>
+
+					<div id="postup-8"></div>
+					<div class="card border-dark shadow-sm d-flex my-4">
+						<div class="card-header">
+							<h5 class="h6 mb-0">8. krok</h5>
+						</div>
+						<div class="card-body">
+							<p>Celý proces opakujeme, dokud nebudeme mít připraveny všechny otázky, které jsou
+								potřeba. Jakmile máme formulář hotový, klikneme na „šipku“, která nás zavede do nabídky,
+								z které můžeme formulář sdílet ostatním osobám, a to pomocí emailu, odkazu či sociálních
+								sítí. Jak svůj formulář nasdílíte je již na Vás.</p>
+							<div class="row justify-content-center">
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-14.jpg" data-lightbox="step-08"
+											data-title="Sdílení pomocí emailu">
+											<img src="imgs/guide-14.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Sdílení pomocí emailu">
+										</a>
+									</figure>
+								</div>
+								<div class="col-lg-3">
+									<figure class="figure mx-auto d-block pt-4">
+										<a class="lightbox-style" href="imgs/guide-15.jpg" data-lightbox="step-08"
+											data-title="Sdílení pomocí odkazu">
+											<img src="imgs/guide-15.jpg"
+												class="figure-img img-fluid rounded mx-auto d-block"
+												alt="Sdílení pomocí odkazu">
+										</a>
+									</figure>
+								</div>
+							</div>
+							<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 14–15</strong> Sdílení
+								formuláře
+							</figcaption>
+						</div>
+					</div>
+
+					<p><a href="https://forms.gle/uSpTcAAz2TBkQ1ix5">Ilustrační formulář vytvořený tvůrci tohoto DVZ</a>
+					</p>
+					<p>Pozn. při kliknutí na „tři tečky“ vedle „šipky“ se dostanete do nabídky ze které se můžete dostat
+						do náhledu, který Vám formulář zobrazí tak, jak ho uvidí ostatní osoby.</p>
+					<p>Formuláře Google nabízí mnoho dalších možností, jak personalizovat vytvářený formulář (barvy,
+						písmo, obrázky). V naší demonstraci jsme ukázali pouze základní nastavení, které je pro naše
+						účely nutné. Doporučujeme Vám další možnosti nastavení prozkoumat a využít tvorbu formuláře i v
+						jiných případech než v hodnocení gymnastického projevu.</p>
+					<p>Jak jsme zmiňovali již na začátku této stránky, online formuláře jsou vhodné pro automatické
+						zpracování výsledků. Bez jakékoliv námahy tak můžeme analyzovat gymnastický projev celé třídy.
+						Pokud vyplnil alespoň jedna osoba či více vytvořený formulář, klikněte na kartu „Odpovědi“,
+						kterou naleznete při tvorbě formuláře. V této kartě naleznete automaticky zpracované výsledky
+						formou statistiky (např. průměrných počet bodů, medián, rozsah apod.) viz Obr. 16–17.</p>
+					<div class="row justify-content-center">
+						<div class="col-lg-3">
+							<figure class="figure mx-auto d-block pt-4">
+								<a class="lightbox-style" href="imgs/guide-16.jpg" data-lightbox="step-09"
+									data-title="Odpovědi 1">
+									<img src="imgs/guide-16.jpg" class="figure-img img-fluid rounded mx-auto d-block"
+										alt="Odpovědi 1">
 								</a>
-								<figcaption class="figure-caption text-center"><strong>Obrázek 3</strong></figcaption>
+							</figure>
+						</div>
+						<div class="col-lg-3">
+							<figure class="figure mx-auto d-block pt-4">
+								<a class="lightbox-style" href="imgs/guide-17.jpg" data-lightbox="step-09"
+									data-title="Odpovědi 2">
+									<img src="imgs/guide-17.jpg" class="figure-img img-fluid rounded mx-auto d-block"
+										alt="Odpovědi 2">
+								</a>
 							</figure>
 						</div>
 					</div>
+					<figcaption class="figure-caption text-center pb-4"><strong>Obrázek 16–17</strong> Automatické zpracování výsledků
+					</figcaption>
+
+
+
+					<h3 class="h4 pt-4" id="item-4">Formuláře gymnastického projevu</h3>
+					<hr class="my-4">
+					<p>Následují gymnastické prvky, jejich chyby a penalizace na základě kterých můžeme vytvářet
+						formuláře, které nám usnadní jejich hodnocení a následnou analýzu výkonnosti.</p>
+					<h4 class="h5 pt-4">Kotoul vpřed</h4>
+					<ul>
+						<li><strong>Neplynulost pohybu</strong> <span class="badge badge-danger">3 b.</span> –
+							nedostatečné sbalení, stavění se na hlavu, šikmé provedení přes rameno.</li>
+						<li><strong>Nesprávná poloha rukou</strong> <span class="badge badge-warning">2 b.</span> – při
+							zahájení kotoulu nejsou položeny na zem dlaně.</li>
+						<li><strong>Nedokončení kotoulu</strong> <span class="badge badge-warning">2 b.</span> – kotoul
+							končí v jiné než předepsané konečné poloze – žák zůstává ležet na zádech, sedět.</li>
+						<li><strong>Chybné provedení vstávání do konečné polohy</strong> <span
+								class="badge badge-secondary">1 b.</span> – pomoc rukama, kolena od sebe, kotníky od
+							sebe, vstávání přes klek, křížení nohou).</li>
+					</ul>
+					<h4 class="h5 pt-4">Kotoul vzad</h4>
+					<ul>
+						<li><strong>Nedokončení kotoulu</strong> <span class="badge badge-danger">3 b.</span> –
+							nepřetočení kotoulu, cvičenec provede jen kolébku vzad.</li>
+						<li><strong>Neplynulost pohybu</strong> <span class="badge badge-warning">2 b.</span> –
+							nedostatečné sbalení, vytočení hlavy starou, šikmé provedení přes rameno.</li>
+						<li><strong>Nesprávná poloha rukou</strong> <span class="badge badge-warning">2 b.</span> – při
+							zahájení kotoulu nejsou paže připraveny, při přechodu nejsou položeny na zem dlaně, vytočeno
+							předloktí stranou.</li>
+						<li><strong>Chybné provedení vstávání do konečné polohy</strong> <span
+								class="badge badge-secondary">1 b.</span> – kotoul je dokončen do kleku.</li>
+					</ul>
+					<h4 class="h5 pt-4">Váha předklonmo</h4>
+					<ul>
+						<li><strong>Neudržení statické polohy a výdrže na jedné noze</strong> <span
+								class="badge badge-danger">3 b.</span> – pád, úkrok, dotyk podložky rukou.</li>
+						<li><strong>Výdrž kratší než je předepsáno</strong> <span class="badge badge-warning">2
+								b.</span></li>
+						<li><strong>Příliš překloněný trup, málo zanožený DK</strong> <span
+								class="badge badge-warning">2 b.</span> – netvoří přímku.</li>
+						<li><strong>Neplynulost pohybu, pokrčené končetiny</strong> <span
+								class="badge badge-secondary">1 b.</span> – pokrčené DK, HK, celkově neladný a neplynulý
+							pohyb.</li>
+					</ul>
+					<h4 class="h5 pt-4">Přemet stranou</h4>
+					<ul>
+						<li><strong>Nedokončení přemetu stranou</strong> <span class="badge badge-danger">3 b.</span> –
+							pád, nepřetočení přemetu kolem vertikály.</li>
+						<li><strong>Provedení přemetu mimo osu</strong> <span class="badge badge-warning">2 b.</span> –
+							neprojití stojem na rukou, DK jsou okolo.</li>
+						<li><strong>Chybné postavení dlaní a hlavy</strong> <span class="badge badge-warning">2
+								b.</span> – prsty směřují od sebe, dlaně nejsou v šíři ramen, velký záklon nebo předklon
+							hlavy.</li>
+						<li><strong>Neplynulost pohybu, pokrčené končetiny</strong> <span
+								class="badge badge-secondary">1 b.</span> – pokrčené DK, HK, celkově neladný a neplynulý
+							pohyb.</li>
+					</ul>
+					<p class="pt-4 text-danger">Pokud získáte 5 a méně bodů v daném prvku, měli byste přistoupit k
+						aplikování průpravných cvičení.</p>
+
+					<h3 class="h4 pt-4" id="item-5">Hodnocení gymnastického projevu skupiny (třídy)</h3>
+					<hr class="my-4">
+					<p>Ve výuce tělesné výchovy se na základě zmíněných informací nabízí možnost vytvořit čtyři
+						formuláře (kotoul vpřed, kotoul vzad, přemet stranou, váha předklonmo). Tyto formuláře následně
+						sdílet celé třídě a využít během výuky TV – jeden žák provede prvek, druhý ho hodnotí (popřípadě
+						hodnotí vždy učitel). Po provedení všech gymnastických prvků můžete s žáky analyzovat úspěšnost
+						jednotlivých prvků.</p>
+					<p>Pokud nechcete jednotlivé výsledky mít anonymní, doporučujeme do dotazníku přidat otevřenou
+						otázku (stručná odpověď) do které žáci zadají své jméno.</p>
+
 				</div>
 			</div>
-		</div>
-		<div class="container">
+			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<img src="imgs/logotyp.png" class="w-75 figure-img img-fluid rounded mx-auto d-block pt-5 pb-3"
@@ -140,39 +553,38 @@
 					</div>
 				</div>
 			</div>
-		</main>
-	
-		<footer class="footer mt-auto py-3 text-muted bg-dark">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 py-1">
-							<p class="text-white-50 text-lg-left text-center">Naposledy aktualizováno 05.10.2019</p>
-							<p class="text-white-50 text-lg-left text-center">&copy; 2019 | <a
-									href="https://pages.pedf.cuni.cz/digitalni-gramotnost/" class="text-white">Podpora
-									rozvoje digitální gramotnosti</a>
-							</p>
+	</main>
+
+	<footer class="footer mt-auto py-3 text-muted bg-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 py-1">
+					<p class="text-white-50 text-lg-left text-center">Naposledy aktualizováno 12.10.2019</p>
+					<p class="text-white-50 text-lg-left text-center">&copy; 2019 | <a
+							href="https://pages.pedf.cuni.cz/digitalni-gramotnost/" class="text-white">Podpora
+							rozvoje digitální gramotnosti</a>
+					</p>
+				</div>
+				<div class="col-lg-6 py-1">
+					<div class="d-flex">
+						<div class="w-25 d-flex align-items-center">
+							<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><img src="imgs/by-sa.svg"
+									class="license" alt="Licence BY-SA 4.0"></a>
 						</div>
-						<div class="col-lg-6 py-1">
-							<div class="d-flex">
-								<div class="w-25 d-flex align-items-center">
-									<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><img src="imgs/by-sa.svg"
-											class="license" alt="Licence BY-SA 4.0"></a>
-								</div>
-								<p class="pl-3 text-white-50">Tento materiál je včetně všech svých
-									částí licencován licencí <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
-										class="text-white">Creative Commons BY-SA 4.0</a></p>
-							</div>
-						</div>
+						<p class="pl-3 text-white-50">Tento materiál je včetně všech svých
+							částí licencován licencí <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+								class="text-white">Creative Commons BY-SA 4.0</a></p>
 					</div>
 				</div>
-			</footer>
+			</div>
+		</div>
+	</footer>
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/app.js"></script>
 	<script src="js/lightbox.min.js"></script>
 
 	<script>
@@ -182,6 +594,7 @@
 			'albumLabel': "Obrázek %1 z %2",
 		})
 	</script>
+
 </body>
 
 </html>

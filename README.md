@@ -45,12 +45,12 @@ Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/atletika/).
 
 ## DVZ Gymnastika (pracovní název, rozpracováno)
 
-Páté DVZ, které katedra zpracovala se zabývá TO-DO. Součástí tohoto DVZ je:
+Páté DVZ, které katedra zpracovala se zabývá hodnocením gymnastického projevu. Součástí tohoto DVZ je:
 
-- TO-DO
-- TO-DO
-- TO-DO
-- TO-DO
+- Teorie (Úvod do problematiky)
+- Technika vybraných gymnastických prvků (Technika provedení)
+- Tvorba online formuláře (Hodnocení gymnastického projevu)
+- Soubor cvičení (průpravná cvičení)
 
 Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/gymnastika/).
 

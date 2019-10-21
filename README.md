@@ -43,7 +43,7 @@ Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/zdatnost/).
 
 Toto DVZ je k dispozici [online](https://heidler.github.io/dvz/atletika/).
 
-## DVZ Gymnastika (pracovní název, rozpracováno)
+## DVZ Gymnastika
 
 Páté DVZ, které katedra zpracovala se zabývá hodnocením gymnastického projevu. Součástí tohoto DVZ je:
 
